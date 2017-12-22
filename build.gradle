@@ -1,0 +1,17 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.25'
+    compile 'org.slf4j:slf4j-simple:1.7.25'
+
+    compile 'org.apache.kafka:kafka-clients:0.10.2.1'
+
+    compileOnly 'org.projectlombok:lombok:1.16.18'
+
+    testCompile 'junit:junit:4.12'
+}
+
